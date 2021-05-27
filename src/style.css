@@ -1,0 +1,75 @@
+.weatherProject {
+  padding: 20px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+.weatherProjectWrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.hour {
+  font-size: 50px;
+  text-align: center;
+  padding: 10px 0px 0px 12px;
+}
+.date {
+  text-align: center;
+  padding: 5px 0px 0px 12px;
+  font-size: 15px;
+}
+.currentLocation {
+  text-align: center;
+  margin: 20px 0px 0px 14px;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1px solid #333333;
+  background-color: #333333;
+  border-radius: 50px;
+  color: #dadde1;
+}
+.location {
+  padding: 20px 0px 0px 45px;
+  font-size: 16px;
+}
+.temperature {
+  padding: 31px 0px 0px 45px;
+  font-size: 30px;
+}
+.degrees {
+  font-size: 10px;
+  font-weight: 600;
+}
+.weatherDescription {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 4px 0px 0px 45px;
+}
+.humidity {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0px 0px 0px 45px;
+}
+.windspeed {
+  font-size: 10px;
+  font-weight: 600;
+  padding: 0px 0px 0px 45px;
+}
+.weatherImage {
+  padding: 30px 0px 0px 0px;
+  width: 135px;
+}
+.credits {
+  padding: 15px;
+  font-size: 10px;
+}
