@@ -39,31 +39,32 @@ ul {
   color: #dadde1;
 }
 .location {
-  padding: 20px 0px 0px 45px;
+  padding: 20px 0px 0px 25px;
   font-size: 16px;
 }
 .temperature {
-  padding: 31px 0px 0px 45px;
+  padding: 31px 0px 0px 25px;
   font-size: 30px;
 }
-.degrees {
+.units {
   font-size: 10px;
   font-weight: 600;
 }
 .weatherDescription {
   font-size: 10px;
   font-weight: 600;
-  padding: 4px 0px 0px 45px;
+  padding: 4px 0px 0px 25px;
+  text-transform: capitalize;
 }
 .humidity {
   font-size: 10px;
   font-weight: 600;
-  padding: 0px 0px 0px 45px;
+  padding: 0px 0px 0px 25px;
 }
 .windspeed {
   font-size: 10px;
   font-weight: 600;
-  padding: 0px 0px 0px 45px;
+  padding: 0px 0px 0px 25px;
 }
 .weatherImage {
   padding: 30px 0px 0px 0px;
