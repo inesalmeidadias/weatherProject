@@ -52,6 +52,8 @@ ul {
 .units {
   font-size: 10px;
   font-weight: 600;
+  color: #333333;
+  text-decoration: none;
 }
 .weatherDescription {
   font-size: 10px;
@@ -82,4 +84,14 @@ ul {
   background: linear-gradient(145deg, #d5d5d5c2, #eeeeee9a);
   box-shadow: inset 1px 1px 3px #bababaa1, inset -1px -1px 3px #ffffff;
   height: 30px;
+}
+.temperature .active {
+  cursor: default;
+  color: #333333;
+  text-decoration: none;
+}
+.temperature :hover {
+  transition: all 250ms ease;
+  color: #333333;
+  text-decoration: none;
 }
