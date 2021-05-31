@@ -23,16 +23,16 @@ ul {
 .hour {
   font-size: 50px;
   text-align: center;
-  padding: 10px 0px 0px 12px;
+  padding-top: 10px;
 }
 .date {
   text-align: center;
-  padding: 15px 0px 0px 8px;
+  padding: 0px 0px 0px 8px;
   font-size: 14px;
 }
 .currentLocation {
   text-align: center;
-  margin: 20px 0px 0px 10px;
+  margin: 12px 0px 0px 10px;
   padding: 10px 10px;
   font-size: 12px;
   font-weight: 500;
@@ -94,4 +94,19 @@ ul {
   transition: all 250ms ease;
   color: #333333;
   text-decoration: none;
+}
+.lastupdated {
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+.weather-forecast {
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  text-align: center;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.6;
 }

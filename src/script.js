@@ -26,7 +26,6 @@ function handleSubmit(event){
     let cityInputElement = document.querySelector("#city-input");
     search(cityInputElement.value);
 }
-
 function displayTemperature(response){
     let cityElement = document.querySelector("#city");
     let temperatureElement = document.querySelector("#temperature");
@@ -59,7 +58,6 @@ function displayFahrenheitTemperature(event){
     let temperatureElement = document.querySelector("#temperature");
     temperatureElement.innerHTML = Math.round(fahrenheitTemperature);
 }
-
 function displayCelsiusTemperature(event){
     event.preventDefault();
     celsiusLink.classList.add("active");
