@@ -102,11 +102,17 @@ ul {
 }
 .weather-forecast {
   text-align: center;
+  margin: 0px 40px;
 }
 .weather-forecast-date {
-  font-size: 16px;
+  font-size: 15px;
   text-align: center;
+  margin: 10px;
 }
 .weather-forecast-temperature-min {
   opacity: 0.6;
+  font-size: 14px;
+}
+.weather-forecast-temperature-max {
+  font-size: 14px;
 }

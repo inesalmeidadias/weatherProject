@@ -26,6 +26,25 @@ function handleSubmit(event){
     let cityInputElement = document.querySelector("#city-input");
     search(cityInputElement.value);
 }
+function displayForecast() {
+    let forecastElement = document.querySelector("#forecast");
+    let forecastHTML=`<div class="row">`;
+    let days = ["sun","mon","tue",
+  "wed","thu","fri"];
+    days.forEach(function(day) {
+        forecastHTML = forecastHTML + `
+              <div class="col-2">
+                <div class="weather-forecast-date">${day}</div>
+                <img src="UI/00_weather_icon_sunny.png" alt="#" width="40" />
+                <div class="weather-forecast-temperatures">
+                  <span class="weather-forecast-temperature-max">18º </span
+                  ><span class="weather-forecast-temperature-min">12º</span>
+                </div>
+              </div>`;
+    });
+        forecastHTML = forecastHTML +`</div>`;
+    forecastElement.innerHTML = forecastHTML;
+}
 function displayTemperature(response){
     let cityElement = document.querySelector("#city");
     let temperatureElement = document.querySelector("#temperature");
@@ -35,6 +54,7 @@ function displayTemperature(response){
     let hoursElement = document.querySelector("#hours");
     let dateElement = document.querySelector("#date");
     let iconElement = document.querySelector("#icon");
+    
     celsiusTemperature = response.data.main.temp;
     cityElement.innerHTML = response.data.name;
     temperatureElement.innerHTML = Math.round(celsiusTemperature);
@@ -78,3 +98,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("New York");
+displayForecast();
