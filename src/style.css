@@ -21,33 +21,24 @@ ul {
   padding: 0px;
 }
 .hour {
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
-  padding-top: 10px;
+  padding-top: 8px;
 }
 .date {
   text-align: center;
-  padding: 0px 0px 0px 8px;
+  padding: 30px 0px 0px 8px;
   font-size: 14px;
+  font-weight: 600;
 }
-.currentLocation {
-  text-align: center;
-  margin: 12px 0px 0px 10px;
-  padding: 10px 10px;
-  font-size: 12px;
-  font-weight: 500;
-  border: 1px solid #333333;
-  background-color: #333333;
-  border-radius: 50px;
-  color: #dadde1;
-}
+
 .location {
-  padding: 20px 0px 0px 25px;
+  padding: 20px 0px 0px 5px;
   font-size: 20px;
 }
 .temperature {
-  padding: 31px 0px 0px 25px;
-  font-size: 30px;
+  padding: 20px 0px 0px 5px;
+  font-size: 40px;
 }
 .units {
   font-size: 10px;
@@ -56,31 +47,36 @@ ul {
   text-decoration: none;
 }
 .weatherDescription {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 4px 0px 0px 25px;
+  padding: 4px 0px 0px 5px;
   text-transform: capitalize;
 }
 .humidity {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 0px 0px 0px 25px;
+  padding: 0px 0px 0px 5px;
 }
 .windspeed {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
-  padding: 0px 0px 0px 25px;
+  padding: 0px 0px 0px 5px;
 }
 .weatherImage {
-  padding: 30px 0px 0px 0px;
+  padding: 45px 0px 0px 0px;
   width: 165px;
 }
 .credits {
-  padding: 15px;
   font-size: 10px;
+  color: #b6b6b6;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  position: relative;
+  top: 10px;
+  left: 210px;
 }
 .form-control {
-  margin: 10px 40px;
+  margin: 20px 12px;
   background: linear-gradient(145deg, #d5d5d5c2, #eeeeee9a);
   box-shadow: inset 1px 1px 3px #bababaa1, inset -1px -1px 3px #ffffff;
   height: 30px;
