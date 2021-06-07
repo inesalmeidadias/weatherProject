@@ -12,14 +12,14 @@ function formatHours(timestamp) {
 }
 function formatDate(datestamp) {
     let fulldate = new Date(datestamp);
-    let days = ["sunday","monday","tuesday",
+    let days = ["sunday","Monday","tuesday",
   "wednesday","thursday","friday","saturday"];
   let months = [
   "jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"];
     let day = days[fulldate.getDay()];
     let month = months[fulldate.getMonth()];
     let number = fulldate.getDate();
-    return `${day} | ${number} ${month}`
+    return `${day}, ${number} ${month}`
 }
 function handleSubmit(event){
     event.preventDefault();

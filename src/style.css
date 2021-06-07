@@ -23,7 +23,7 @@ ul {
 .hour {
   font-size: 30px;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 6px;
 }
 .date {
   text-align: center;
@@ -33,12 +33,13 @@ ul {
 }
 
 .location {
-  padding: 20px 0px 0px 5px;
-  font-size: 20px;
+  padding: 15px 0px 0px 5px;
+  font-size: 25px;
 }
 .temperature {
   padding: 20px 0px 0px 5px;
   font-size: 40px;
+  font-weight: 600;
 }
 .units {
   font-size: 10px;
@@ -56,11 +57,13 @@ ul {
   font-size: 12px;
   font-weight: 600;
   padding: 0px 0px 0px 5px;
+  opacity: 0.6;
 }
 .windspeed {
   font-size: 12px;
   font-weight: 600;
   padding: 0px 0px 0px 5px;
+  opacity: 0.6;
 }
 .weatherImage {
   padding: 45px 0px 0px 0px;
@@ -92,7 +95,7 @@ ul {
   text-decoration: none;
 }
 .lastupdated {
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
 }
@@ -101,9 +104,10 @@ ul {
   margin: 0px 40px;
 }
 .weather-forecast-date {
-  font-size: 15px;
+  font-size: 14px;
   text-align: center;
   margin: 10px;
+  font-weight: 600;
 }
 .weather-forecast-temperature-min {
   opacity: 0.6;
