@@ -24,8 +24,8 @@
       <div class="container">
         <div class="weatherProject">
           <div class="row">
-            <div class="col">
-              <ul>
+            <div class="col-lg">
+              <ul class="location-date-info">
                 <li>
                   <form id="search-form">
                     <div class="col-md-10 form-group">
@@ -40,12 +40,12 @@
                     </div>
                   </form>
                 </li>
-                <li class="date" id="date"></li>
-                <li class="hour" id="hours"></li>
-                <li class="lastupdated">Last updated</li>
+                <li class="date d-none d-lg-block" id="date"></li>
+                <li class="hour d-none d-lg-block" id="hours"></li>
+                <li class="lastupdated d-none d-lg-block">Last updated</li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-lg">
               <ul>
                 <li class="location" id="city"></li>
                 <li class="temperature">
@@ -61,7 +61,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col-lg">
               <img
                 class="weatherImage"
                 id="icon"
@@ -72,8 +72,7 @@
           </div>
           <div class="weather-forecast" id="forecast">
             <div class="row">
-              <div class="col-2">
-                <div class="weather-forecast-date">1 Jun</div>
+              <div class="col-lg-2">
                 <img src="UI/00_weather_icon_sunny.png" alt="#" width="40" />
                 <div class="weather-forecast-temperatures">
                   <span class="weather-forecast-temperature-max">18º </span
